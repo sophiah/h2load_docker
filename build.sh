@@ -1,6 +1,5 @@
 #!/bin/sh
 
-docker build --rm  -t h2load_docker .
+docker build --rm  -t sophiah/h2load .
 
 docker push sophiah/h2load
-
